@@ -36,3 +36,7 @@ module.exports = {
  },
 ```
 - This formats linting rules on save
+
+# NPM helper commands
+- `$ npm version <patch|minor|major>` (required for new publish)
+- `$ npm publish`
