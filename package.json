@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adam-demirel",
-  "version": "2.0.1",
+  "version": "1.0.3",
   "description": "My favourite eslint rules",
   "main": "index.js",
   "scripts": {},
