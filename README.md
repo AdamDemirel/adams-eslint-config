@@ -1,0 +1,1 @@
+# adams-eslint-config
