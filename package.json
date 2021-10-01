@@ -1,5 +1,5 @@
 {
-  "name": "adams-eslint-config",
+  "name": "eslint-config-adam-demirel",
   "version": "1.0.0",
   "description": "My favourite eslint rules",
   "main": "index.js",
@@ -8,11 +8,14 @@
     "type": "git",
     "url": "git+https://github.com/AdamDemirel/adams-eslint-config.git"
   },
-  "keywords": [],
+  "keywords": ["eslint", "eslintconfig"],
   "author": "Adam Demirel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AdamDemirel/adams-eslint-config/issues"
   },
-  "homepage": "https://github.com/AdamDemirel/adams-eslint-config#readme"
+  "homepage": "https://github.com/AdamDemirel/adams-eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
 }
