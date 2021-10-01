@@ -24,3 +24,15 @@ module.exports = {
 ```
 
 # Recommended VScode settings
+1. In CLI: `$ code --install-extension dbaeumer.vscode-eslint` to install `dbaeumer.vscode-eslint` extension (make sure it's enabled)
+
+2. In VScodes `settings.json` (cmd+p + "Preferences: Open Settings (JSON)"):
+```json
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+"[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+ },
+```
+- This formats linting rules on save
